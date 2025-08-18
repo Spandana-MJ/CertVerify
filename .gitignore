@@ -1,0 +1,28 @@
+﻿# Node / Vite
+node_modules/
+dist/
+build/
+.out/
+.next/
+*.log
+
+# Env (keep secrets out of git)
+.env
+.env.*
+!.env.example
+
+# Hardhat / Truffle (if added later)
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Coverage
+coverage/
+coverage.json
